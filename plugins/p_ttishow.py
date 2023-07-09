@@ -38,7 +38,7 @@ async def save_group(bot, message):
             return
         buttons = [[
             InlineKeyboardButton('🤥 Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('🔔 Updates', url='https://t.me/Spidy_Linkz')
+            InlineKeyboardButton('🔔 Updates', url='https://t.me/Tamil_Rockers_Links')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -67,7 +67,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('Support', url=f'https://t.me/MCU_Support')
+            InlineKeyboardButton('Support', url=f'https://t.me/Tamil_Rockers_Discussion')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -106,7 +106,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Successfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('Support', url=f'https://t.me/MCU_Support')
+            InlineKeyboardButton('Support', url=f'https://t.me/Tamil_Rockers_Discussion')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
